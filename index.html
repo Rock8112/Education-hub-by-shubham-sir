@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Coaching Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#facilities">Facilities</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#contact details">Contact details</a></li>
+                <li><a href="#contact us">Contact us</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <section id="home" aria-label="Welcome Section">
+        <h1>EDUCATION HUB by Shubham sir</h1>
+        <h2>6th - 12th ( UP Board & CBSE Board ) </h2>
+        <p>Specialized Coaching for all Home exams & Board exam preparetion. Join us for a bright future!</p>
+    
+        <!-- Slideshow Container -->
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <img src="images/WhatsApp Image 2024-03-19 at 18.20.03_c024333a.jpg" alt="Classroom 1" class="home-image">
+            </div>
+            <div class="slide fade">
+                <img src="images/classroom.jpg" alt="Classroom 2" class="home-image">
+            </div>
+            <div class="slide fade">
+                <img src="images/IMG20250109160819~2.jpg" alt="Classroom 3" class="home-image">
+            </div>
+            <div class="slide fade">
+                <img src="images\IMG-20240906-WA0002.jpg" alt="Classroom" class="home-image">
+            </div>
+            <!-- Next and Previous Buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </section>
+
+    </section>
+
+    <!-- About Section -->
+    <section id="facilities">
+        <h2>Facilities</h2>
+        <p>1.We have best teachers in your area.</p>
+        <p>2. We takes monthly test of our students for better improvement.</p>
+        <p>6. Minimum fees rate. </p>
+        <p>3. Our campus is fully secured by CCTV Cameras.</p>
+        <p>4. Our campus is WIFI faciality for better improvement in education quality .</p>
+        <p>5. We have smart classes. </p>
+        <p>7. special off for poor children. </p>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses">
+        <h2>Our Courses</h2>
+        <ul>
+            <h3>UP Board</h3>
+            <ul>
+            <li><strong>6th - 8th :</strong> 300 per month</li>
+            <li><strong>9th :</strong> 400 per month</li>
+            <li><strong>10th :</strong> 450 per month</li>
+            <li><strong>11th :</strong> 500 per month</li>
+            <li><strong>12th :</strong> 550 per month</li>
+        </ul>
+        <h3>CBSE Board</h3>
+        <ul>
+             <li><strong>6th - 8th :</strong> 500 per month</li>
+             <li><strong>9th :</strong> 800 per month</li>
+             <li><strong>10th :</strong> 800 per month</li>
+             <li><strong>11th :</strong> 1200 per month</li>
+             <li><strong>12th :</strong> 1200 per month</li>
+        <ul>
+    </section>
+
+  
+
+<!--testimonial section -->
+<section id="testimonials">
+    <h2>Student Testimonials</h2>
+    <blockquote>
+        <p>"Education hub by shubham sir Coaching helped me to acquire top rank in my 10th exam  Highly recommended."</p>
+        <footer>-Rachit Patel</footer>
+    </blockquote>
+    <blockquote>
+        <p>"The personalized approach and expert guidance made all the difference in my Board exam preparation. Thank you, shubham sir"</p>
+        <footer>- Anamika Maurya</footer>
+    </blockquote>
+
+      <!-- Contact Section -->
+      <section id="contact us">
+        <h2>Contact Us</h2>
+        <form action="submit.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="tel" name="phone" placeholder="Your Phone Number" required>
+            <select name="Board" required>
+                <option value="UP Board">UP Board</option>
+                <option value="CBSE Board">CBSE Board</option>
+            </select>
+            <select name="class" required>
+                <option value="6th">6th</option>
+                <option value="7th">7th</option>
+                <option value="8th">8th</option>
+                <option value="9th">9th</option>
+                <option value="10th">10th</option>
+                <option value="11th">11th</option>
+                <option value="12th">12th</option>
+            </select>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- Contact Details Section -->
+<div id="contact details">
+    <h3>Contact details</h3>
+    <p><strong>Phone:</strong> +91 8112927149 , 9305772288</p>
+    <p><strong>Email:</strong> info@abccoaching.com</p>
+    <p><strong>Address:</strong> RS Public School Campus , Ajitpur Road ,Hathigahan Prayagraj</p>
+</div>
+</section>
